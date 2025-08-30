@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Estado del Dominio</title>
+  <style>
+    body { font-family: Arial; padding: 10px; }
+    .trusted { color: green; }
+    .untrusted { color: red; }
+    button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <div id="status">Cargando...</div>
+  <button id="addDomain">Agregar dominio a confiables</button>
+  <button id="showDomains">Ver dominios confiables</button>
+  <button id="updateFromOnline">Actualizar dominios desde URL</button>
+  <button id="clearAllDomains">Eliminar todos los dominios</button>
+
+
+  <ul id="domainList" style="margin-top: 10px;"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
